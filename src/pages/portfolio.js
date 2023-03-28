@@ -168,7 +168,7 @@ function Portfolio() {
                   <source src="/5.webm" type="video/webm" />
                   <source src="/5.mp4" type="video/mp4" />
                 </video>
-                <video
+                {/* <video
                   autoPlay
                   muted
                   loop
@@ -176,7 +176,7 @@ function Portfolio() {
                   className="min-h-screen">
                   <source src="/6.webm" type="video/webm" />
                   <source src="/6.mp4" type="video/mp4" />
-                </video>
+                </video> */}
               </div>
             )}
           </div>
