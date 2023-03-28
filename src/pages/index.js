@@ -181,7 +181,8 @@ export default function Home() {
       {/* Video */}
       <div className="relative  justify-end items-end  min-h-screen">
         <video autoPlay muted loop id="myVideo" className="min-h-screen">
-          <source src="/1.mp4" type="video/mp4"  />
+          <source src="/1.webm" type="video/webm" />
+          <source src="/1.mp4" type="video/mp4" />
         </video>
 
         <div className="z-20 absolute  bottom-1  w-full mx-16">

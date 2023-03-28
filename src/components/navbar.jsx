@@ -5,7 +5,6 @@ function Navbar() {
   const { asPath } = useRouter();
   const path = asPath.split("#")[0].split("?")[0];
 
-  console.log(path);
 
   return (
     <div>
