@@ -132,51 +132,21 @@ function Portfolio() {
             {domLoaded && (
               <div className="mt-8 space-y-8">
                 {" "}
-                <ReactPlayer
-                  className="react-player fixed-bottom"
-                  url="assets/videos/2.MP4"
-                  width="100%"
-                  height="100%"
-                  controls={true}
-                  volume={0}
-                  playing={true}
-                />
-                <ReactPlayer
-                  className="react-player fixed-bottom"
-                  url="assets/videos/3.mp4"
-                  width="100%"
-                  height="100%"
-                  controls={true}
-                  volume={0}
-                  playing={true}
-                />
-                <ReactPlayer
-                  className="react-player fixed-bottom"
-                  url="assets/videos/1.mp4"
-                  width="100%"
-                  height="100%"
-                  controls={true}
-                  volume={0}
-                  playing={true}
-                />
-                <ReactPlayer
-                  className="react-player fixed-bottom"
-                  url="assets/videos/5.MP4"
-                  width="100%"
-                  height="100%"
-                  controls={true}
-                  volume={0}
-                  playing={true}
-                />
-                <ReactPlayer
-                  className="react-player fixed-bottom"
-                  url="assets/videos/6.mp4"
-                  width="100%"
-                  height="100%"
-                  volume={0}
-                  controls={true}
-                  playing={true}
-                />
+        <video autoPlay muted loop id="myVideo" className="min-h-screen">
+          <source src="/2.mp4" type="video/mp4"  />
+        </video>
+   <video autoPlay muted loop id="myVideo" className="min-h-screen">
+          <source src="/3.mp4" type="video/mp4"  />
+        </video>
+   <video autoPlay muted loop id="myVideo" className="min-h-screen">
+          <source src="/1.mp4" type="video/mp4"  />
+        </video>
+    <video autoPlay muted loop id="myVideo" className="min-h-screen">
+          <source src="/5.mp4" type="video/mp4"  />
+        </video>
+   <video autoPlay muted loop id="myVideo" className="min-h-screen">
+          <source src="/6.mp4" type="video/mp4"  />
+        </video>
               </div>
             )}
           </div>
