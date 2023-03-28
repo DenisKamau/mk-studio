@@ -31,11 +31,3 @@ yarn-error.log*
 # vercel
 .vercel
 
-public/assets/videos
-
-public/assets/videos/1.mp4
-public/assets/videos/2.mp4
-public/assets/videos/3.mp4
-public/assets/videos/5.mp4
-public/assets/videos/6.mp4
-public/assets/videos/7.mp4
