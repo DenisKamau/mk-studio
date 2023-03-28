@@ -14,7 +14,7 @@ import jamesonBg from "../../public/assets/img/jameson.png";
 import outdoor from "../../public/assets/img/outdoor.png";
 import studio from "../../public/assets/img/studioshoots.png";
 import videos from "../../public/assets/img/videos.png";
-import printMedia from "../../public/assets/img/printmedia.png";
+import printMedia from "../../public/assets/img/jamesons.png";
 import { useState, useEffect } from "react";
 
 export default function Home() {
