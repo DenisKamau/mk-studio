@@ -20,16 +20,16 @@ function Portfolio() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/mklogo.svg" />
       </Head>
-      <div className="bg-[#ECE7DC] px-16 -mt-4 pb-8 min-h-screen">
+      <div className="bg-[#ECE7DC] px-8 lg:px-16 -mt-4 pb-8 min-h-screen">
         {/* Logo */}
-        <Image src={Logo} />
+        <Image priority src={Logo} alt="clients" className="w-auto h-auto" />
         <main>
-          <p class="text-5xl text-center font-medium -mt-[20px] text-neutral-900">
+          <p className="lg:text-5xl text-4xl text-center font-medium mt-8 lg:-mt-[20px] text-neutral-900">
             Clients
           </p>
           {/* Clients */}
           <div className="w-full grid place-content-center mt-20">
-            <Image src={brands} />{" "}
+            <Image priority src={brands} alt="brands" />{" "}
           </div>
         </main>
       </div>

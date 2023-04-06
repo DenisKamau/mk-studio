@@ -40,19 +40,19 @@ function Portfolio() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/mklogo.svg" />
       </Head>
-      <div className="bg-[#ECE7DC] px-16 -mt-4 pb-8">
+      <div className="bg-[#ECE7DC] px-8 lg:px-16 -mt-4 pb-8">
         {/* Logo */}
-        <Image src={Logo} />
+        <Image priority src={Logo} alt="logo" className="h-auto w-auto" />
         <main
           className={
-            "" + (activeTab === "Photos" ? "grid grid-cols-5 gap-0 " : "")
+            "" + (activeTab === "Photos" ? "lg:grid lg:grid-cols-5 gap-0 " : "")
           }>
           <div>
-            <p className="text-5xl font-medium mt-11 text-neutral-900">
+            <p className="lg:text-5xl text-4xl font-medium mt-11 text-neutral-900">
               Gallery
             </p>
             {/* Tabs */}
-            <div className="flex flex-col mt-5">
+            <div className="flex lg:flex-col gap-8 lg:gap-0 mt-5">
               <button
                 onClick={() => setActiveTab("Photos")}
                 className={
@@ -66,7 +66,7 @@ function Portfolio() {
               <button
                 onClick={() => setActiveTab("Videos")}
                 className={
-                  "text-2xl w-fit font-medium border-b-2 text-neutral-900 mt-7 " +
+                  "text-2xl w-fit font-medium border-b-2 text-neutral-900 lg:mt-7 " +
                   (activeTab === "Videos"
                     ? "border-b-black "
                     : "border-transparent text-opacity-40")
@@ -78,53 +78,53 @@ function Portfolio() {
             {/* Images */}
             <div
               className={
-                "space-y-6 mt-10 pl-6 " +
+                "space-y-6 mt-10 lg:pl-6 " +
                 (activeTab === "Photos" ? "show" : "hidden")
               }>
-              <Image src={image1} width="245" />
-              <Image src={image2} width="245" />
-              <Image src={image4} width="245" />
+              <Image src={image1} className="lg:w-[245px] w-full" alt="image" />
+              <Image src={image2} className="lg:w-[245px] w-full" alt="image" />
+              <Image src={image4} className="lg:w-[245px] w-full" alt="image" />
             </div>
           </div>
           <div
             className={
-              "grid grid-cols-4 col-span-4 transition-all ease-in-out duration-300 " +
+              "grid lg:grid-cols-4 col-span-4 transition-all ease-in-out duration-300 " +
               (activeTab === "Photos" ? "show" : "hidden")
             }>
-            <div className="-mt-[120px]">
+            <div className="lg:-mt-[120px]">
               {/* Images */}
               <div className="space-y-6 mt-10">
-                <Image src={image19} width="245" />
-                <Image src={image18} width="245" />
-                <Image src={image17} width="245" />
-                <Image src={image16} width="245" />
+                <Image src={image19} priority className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image18} className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image17} className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image16} className="lg:w-[245px] w-full"  alt="image" />
               </div>
             </div>
-            <div className="-mt-[80px]">
+            <div className="lg:-mt-[80px]">
               {/* Images */}
               <div className="space-y-6 mt-10">
-                <Image src={image15} width="245" />
-                <Image src={image14} width="245" />
-                <Image src={image13} width="245" />
-                <Image src={image12} width="245" />
+                <Image src={image15} className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image14} className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image13} className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image12} className="lg:w-[245px] w-full"  alt="image" />
               </div>
             </div>
-            <div className="-mt-[140px]">
+            <div className="lg:-mt-[140px]">
               {/* Images */}
               <div className="space-y-6 mt-10">
-                <Image src={image10} width="245" />
-                <Image src={image9} width="245" />
-                <Image src={image8} width="245" />
-                <Image src={image7} width="245" />
+                <Image src={image10} className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image9} className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image8} className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image7} className="lg:w-[245px] w-full"  alt="image" />
               </div>
             </div>
-            <div className="-mt-[230px]">
+            <div className="lg:-mt-[230px]">
               {/* Images */}
               <div className="space-y-6 mt-10">
-                <Image src={image11} width="245" />
-                <Image src={image98} width="245" />
-                <Image src={image99} width="245" />
-                <Image src={image100} width="245" />
+                <Image src={image11} className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image98} className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image99} className="lg:w-[245px] w-full"  alt="image" />
+                <Image src={image100} className="lg:w-[245px] w-full"  alt="image" />
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@ function Portfolio() {
                   muted
                   loop
                   id="myVideo"
-                  className="min-h-screen">
+                  className="lg:min-h-screen">
                   <source src="/2.webm" type="video/webm" />
                   <source src="/2.mp4" type="video/mp4" />
                 </video>
@@ -146,7 +146,7 @@ function Portfolio() {
                   muted
                   loop
                   id="myVideo"
-                  className="min-h-screen">
+                  className="lg:min-h-screen">
                   <source src="/3.webm" type="video/webm" />
                   <source src="/3.mp4" type="video/mp4" />
                 </video>
@@ -155,7 +155,7 @@ function Portfolio() {
                   muted
                   loop
                   id="myVideo"
-                  className="min-h-screen">
+                  className="lg:min-h-screen">
                   <source src="/1.webm" type="video/webm" />
                   <source src="/1.mp4" type="video/mp4" />
                 </video>
@@ -164,7 +164,7 @@ function Portfolio() {
                   muted
                   loop
                   id="myVideo"
-                  className="min-h-screen">
+                  className="lg:min-h-screen">
                   <source src="/5.webm" type="video/webm" />
                   <source src="/5.mp4" type="video/mp4" />
                 </video>

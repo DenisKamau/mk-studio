@@ -5,7 +5,6 @@ function Navbar() {
   const { asPath } = useRouter();
   const path = asPath.split("#")[0].split("?")[0];
 
-
   return (
     <div>
       <main
@@ -21,13 +20,13 @@ function Navbar() {
             className={path === "/portfolio" ? "text-black" : "text-[#949494]"}>
             <Link href="/portfolio">Portfolio</Link>
           </li>
+          <li className={path === "/shop" ? "text-black" : "text-[#949494]"}>
+            <Link href="/shop">Shop</Link>
+          </li>
           <li className={path === "/clients" ? "text-black" : "text-[#949494]"}>
             <Link href="/clients">Clients</Link>
           </li>
-          {/* <li className={path === "/shop" ? "text-black" : "text-[#949494]"}>
-            <Link href="/shop">Shop</Link>
-          </li>
-          <li className={path === "/contact" ? "text-black" : "text-[#949494]"}>
+          {/* <li className={path === "/contact" ? "text-black" : "text-[#949494]"}>
             <Link href="/contact">Contact</Link>
           </li> */}
         </ul>
