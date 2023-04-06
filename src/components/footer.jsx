@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div>
-      <main className="bg-black grid place-content-center py-8">
+      <main className="bg-black max-h-[144px] grid place-content-center py-8">
         <p className="lg:text-4xl text-2xl font-medium text-white">Contact us</p>
         {/* Socials */}
         <div className="flex gap-6 justify-center items-center mt-4">
