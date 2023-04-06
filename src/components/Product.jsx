@@ -10,6 +10,7 @@ function Product({ name, price, image }) {
             <Image
               src={image}
               alt="logo"
+              priority
               className="hover:scale-110 transition-all ease-in-out duration-200"
             />
           </div>

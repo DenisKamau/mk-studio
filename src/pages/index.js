@@ -43,11 +43,11 @@ export default function Home() {
             priority
           />
           <div className="lg:mt-[146px] mt-3">
-            <div className="relative pl-6 lg:pl-12">
+            <div className="relative px-6 lg:pl-12">
               <div className="lg:pl-[132px] pl-[20%]">
-                <div className="w-52 h-40  absolute -z-10 bg-stone-600"></div>
+                <div className="sm:w-52 w-40 sm:h-40 h-32 absolute -z-10 bg-stone-600"></div>
               </div>
-              <div className="flex pb-28 lg:pb-0">
+              <div className="flex pb-16 lg:pb-0">
                 <p className="lg:text-5xl text-4xl font-medium max-w-[538px] text-white pt-[25px] lg:leading-[58px]">
                   The heart and mind are the true lens of the camera.
                 </p>

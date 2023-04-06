@@ -1,16 +1,9 @@
 import Logo from "../../public/assets/svg/darklogo.svg";
 import Image from "next/image";
-import { useState, useEffect } from "react";
 import brands from "../../public/assets/img/brands.svg";
 import Head from "next/head";
 
 function Portfolio() {
-  const [activeTab, setActiveTab] = useState("Photos");
-  const [domLoaded, setDomLoaded] = useState(false);
-
-  useEffect(() => {
-    setDomLoaded(true);
-  }, []);
 
   return (
     <div>

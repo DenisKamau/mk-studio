@@ -22,7 +22,6 @@ import image11 from "../../public/assets/img/image11.png";
 import Head from "next/head";
 
 import { useState, useEffect } from "react";
-import ReactPlayer from "react-player";
 
 function Portfolio() {
   const [activeTab, setActiveTab] = useState("Photos");

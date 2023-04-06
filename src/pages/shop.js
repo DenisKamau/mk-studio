@@ -3,13 +3,12 @@ import Image from "next/image";
 import Head from "next/head";
 import Product from "@/components/Product";
 import { Products } from "public/data/products";
-import image17 from "../../public/assets/productImages/prod1.jpg";
 
 function Shop() {
   return (
     <div>
       <Head>
-        <title>Shop - MKSTUDIO</title>
+        <title>Shop</title>
         <meta
           name="description"
           content="MK Studio shop with all products we offer"
