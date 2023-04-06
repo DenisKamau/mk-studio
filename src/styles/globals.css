@@ -2,15 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Caslon";
+  src: url("../../public//assets/fonts/Big Caslon Medium.ttf");
+}
 
 html,
 body {
   margin: 0px;
   padding: 0px;
   height: 100%;
+  font-family: Caslon !important;
 }
 
-.container{
+.container {
   max-width: 1600px;
   margin: 0 auto;
 }

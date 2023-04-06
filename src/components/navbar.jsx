@@ -5,8 +5,6 @@ function Navbar() {
   const { asPath } = useRouter();
   const path = asPath.split("#")[0].split("?")[0];
 
-  console.log(path);
-
   return (
     <div>
       <main
@@ -16,19 +14,31 @@ function Navbar() {
         }>
         <ul className="flex gap-x-9 text-lg font-medium items-center list-none">
           <li className={path === "/" ? "text-[#FFFFFF]" : "text-[#949494]"}>
-            <Link href="/">About</Link>
+            <Link href="/" title="MkStudio Home page">
+              Home
+            </Link>
           </li>
           <li
             className={path === "/portfolio" ? "text-black" : "text-[#949494]"}>
-            <Link href="/portfolio">Portfolio</Link>
+            <Link
+              href="/portfolio"
+              title="MkStudio Portfolio page with their work">
+              Portfolio
+            </Link>
+          </li>
+          <li className={path === "/shop" ? "text-black" : "text-[#949494]"}>
+            <Link href="/shop" title="MkStudio Shop page with products">
+              Shop
+            </Link>
           </li>
           <li className={path === "/clients" ? "text-black" : "text-[#949494]"}>
-            <Link href="/clients">Clients</Link>
+            <Link
+              href="/clients"
+              title="MkStudio previous clients they worked with">
+              Clients
+            </Link>
           </li>
-          {/* <li className={path === "/shop" ? "text-black" : "text-[#949494]"}>
-            <Link href="/shop">Shop</Link>
-          </li>
-          <li className={path === "/contact" ? "text-black" : "text-[#949494]"}>
+          {/* <li className={path === "/contact" ? "text-black" : "text-[#949494]"}>
             <Link href="/contact">Contact</Link>
           </li> */}
         </ul>
