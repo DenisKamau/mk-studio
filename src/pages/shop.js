@@ -8,12 +8,21 @@ function Shop() {
   return (
     <div>
       <Head>
-        <title>Shop</title>
+        <title>Shop - MKStudio</title>
         <meta
           name="description"
-          content="MK Studio shop with all products we offer"
+          content="MKStudio is
+        a creative studio based in Nairobi, Kenya. We are a team of creative minds who are passionate about telling stories through images and videos. This is the shop page of MKStudio. Here you will find all our products.
+        "
         />
+        <meta
+          property="og:title"
+          content="MKStudio - The best creative studio in Nairobi Kenya "
+        />
+        <meta property="og:url" content={`https://www.mkstudioke.com/shop`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow" />
         <link rel="icon" href="/mklogo.svg" />
       </Head>
       <div className="bg-[#ECE7DC] h-full px-8 lg:px-16 -mt-4 pb-8">
