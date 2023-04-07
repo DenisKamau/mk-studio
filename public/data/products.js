@@ -16,8 +16,24 @@ import image15 from "../../public/assets/productImages/prod15.jpg";
 
 export const Products = [
   {
-    name: "1",
-    image: image1,
+    name: "11",
+    image: image11,
+    price: "",
+  },
+  {
+    name: "10",
+    image: image10,
+    price: "",
+  },
+  {
+    name: "14",
+    image: image14,
+    price: "",
+  },
+
+  {
+    name: "8",
+    image: image8,
     price: "",
   },
   {
@@ -50,26 +66,13 @@ export const Products = [
     image: image7,
     price: "",
   },
-  {
-    name: "8",
-    image: image8,
-    price: "",
-  },
+
   {
     name: "9",
     image: image9,
     price: "",
   },
-  {
-    name: "10",
-    image: image10,
-    price: "",
-  },
-  {
-    name: "11",
-    image: image11,
-    price: "",
-  },
+
   {
     name: "12",
     image: image12,
@@ -80,14 +83,15 @@ export const Products = [
     image: image13,
     price: "",
   },
-  {
-    name: "14",
-    image: image14,
-    price: "",
-  },
+
   {
     name: "15",
     image: image15,
+    price: "",
+  },
+  {
+    name: "1",
+    image: image1,
     price: "",
   },
 ];

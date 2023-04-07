@@ -95,9 +95,24 @@ function Portfolio() {
                 "space-y-6 mt-10 lg:pl-6 " +
                 (activeTab === "Photos" ? "show" : "hidden")
               }>
-              <Image src={image1} className="lg:w-[245px] w-full" alt="image" />
-              <Image src={image2} className="lg:w-[245px] w-full" alt="image" />
-              <Image src={image4} className="lg:w-[245px] w-full" alt="image" />
+              <Image
+                src={image1}
+                quality={100}
+                className="lg:w-[245px] w-full"
+                alt="image"
+              />
+              <Image
+                src={image2}
+                quality={100}
+                className="lg:w-[245px] w-full"
+                alt="image"
+              />
+              <Image
+                src={image4}
+                quality={100}
+                className="lg:w-[245px] w-full"
+                alt="image"
+              />
             </div>
           </div>
           <div
@@ -111,17 +126,20 @@ function Portfolio() {
                 <Image
                   src={image19}
                   priority
+                  quality={100}
                   className="lg:w-[245px] w-full"
                   alt="image"
                 />
                 <Image
                   src={image18}
                   priority
+                  quality={100}
                   className="lg:w-[245px] w-full"
                   alt="image"
                 />
                 <Image
                   src={image17}
+                  quality={100}
                   className="lg:w-[245px] w-full"
                   alt="image"
                 />
@@ -129,6 +147,7 @@ function Portfolio() {
                   src={image16}
                   className="lg:w-[245px] w-full"
                   alt="image"
+                  quality={100}
                 />
               </div>
             </div>
@@ -140,22 +159,26 @@ function Portfolio() {
                   className="lg:w-[245px] w-full"
                   alt="image"
                   priority
+                  quality={100}
                 />
                 <Image
                   src={image14}
                   className="lg:w-[245px] w-full"
                   alt="image"
                   priority
+                  quality={100}
                 />
                 <Image
                   src={image13}
                   className="lg:w-[245px] w-full"
                   alt="image"
+                  quality={100}
                 />
                 <Image
                   src={image12}
                   className="lg:w-[245px] w-full"
                   alt="image"
+                  quality={100}
                 />
               </div>
             </div>
@@ -167,22 +190,26 @@ function Portfolio() {
                   className="lg:w-[245px] w-full"
                   alt="image"
                   priority
+                  quality={100}
                 />
                 <Image
                   src={image9}
                   className="lg:w-[245px] w-full"
                   alt="image"
                   priority
+                  quality={100}
                 />
                 <Image
                   src={image8}
                   className="lg:w-[245px] w-full"
                   alt="image"
+                  quality={100}
                 />
                 <Image
                   src={image7}
                   className="lg:w-[245px] w-full"
                   alt="image"
+                  quality={100}
                 />
               </div>
             </div>
@@ -194,22 +221,26 @@ function Portfolio() {
                   className="lg:w-[245px] w-full"
                   alt="image"
                   priority
+                  quality={100}
                 />
                 <Image
                   src={image98}
                   className="lg:w-[245px] w-full"
                   alt="image"
                   priority
+                  quality={100}
                 />
                 <Image
                   src={image99}
                   className="lg:w-[245px] w-full"
                   alt="image"
+                  quality={100}
                 />
                 <Image
                   src={image100}
                   className="lg:w-[245px] w-full"
                   alt="image"
+                  quality={100}
                 />
               </div>
             </div>

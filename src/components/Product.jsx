@@ -17,7 +17,7 @@ function Product({ name, price, image }) {
           </div>
 
           {/* Details */}
-          <div className="flex items-start justify-between mt-6 sm:max-w-[338px] w-full">
+          <div className=" items-start hidden justify-between mt-6 sm:max-w-[338px] w-full">
             <div className="">
               <p className="text-xl font-sans font-normal leading-none text-gray-900">
                 {name}
