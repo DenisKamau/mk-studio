@@ -27,11 +27,18 @@ export default function Home() {
         a creative studio based in Nairobi, Kenya. We are a team of creative minds who are passionate about telling stories through images and videos.
         "
         />
-        <meta property="og:title" content="MKStudio - The best creative studio in Nairobi Kenya " />
+        <meta
+          property="og:title"
+          content="MKStudio - The best creative studio in Nairobi Kenya "
+        />
         <meta property="og:url" content={`https://www.mkstudioke.com`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
+        <meta
+          name="google-site-verification"
+          content="WFbvm29ge3adqH3mizXN_00icsuUL9IazE-o-lgTkXM"
+        />
         <link rel="icon" href="/mklogo.svg" />
       </Head>
       <div className="grid lg:grid-cols-12 gap-[55px] items-start">
