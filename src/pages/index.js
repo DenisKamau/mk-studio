@@ -44,7 +44,7 @@ export default function Home() {
             alt="logo"
             priority
           />
-          <div className="lg:mt-[146px] mt-3">
+          <div className="xl:mt-[146px] mt-3 md:mt-12">
             <div className="relative px-6 lg:pl-12">
               <div className="lg:pl-[132px] pl-[20%]">
                 <div className="sm:w-52 w-40 sm:h-40 h-32 absolute -z-10 bg-stone-600"></div>

@@ -12,7 +12,7 @@ function Navbar() {
           "grid w-full place-content-center py-4 " +
           (path !== "/" ? "bg-[#ECE7DC] " : "bg-transparent")
         }>
-        <ul className="flex gap-x-9 text-lg font-medium items-center list-none">
+        <ul className="flex px-4 gap-x-5 mb-4 sm:mb-0 sm:gap-x-9 text-lg font-medium items-center list-none">
           <li className={path === "/" ? "text-[#FFFFFF]" : "text-[#949494]"}>
             <Link href="/" title="MkStudio Home page">
               Home
