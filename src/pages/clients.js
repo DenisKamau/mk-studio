@@ -1,6 +1,6 @@
 import Logo from "../../public/assets/svg/darklogo.svg";
 import Image from "next/image";
-import brands from "../../public/assets/img/brands.svg";
+import brands from "../../public/assets/img/brands.png";
 import Head from "next/head";
 
 function Portfolio() {
@@ -37,7 +37,7 @@ function Portfolio() {
           </p>
           {/* Clients */}
           <div className="w-full grid place-content-center mt-20">
-            <Image priority src={brands} alt="brands" />{" "}
+            <Image quality={20} priority src={brands} alt="brands" />{" "}
           </div>
         </main>
       </div>
