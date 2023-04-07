@@ -37,7 +37,7 @@ function Portfolio() {
           </p>
           {/* Clients */}
           <div className="w-full grid place-content-center mt-20">
-            <Image quality={20} priority src={brands} alt="brands" />{" "}
+            <Image quality={40} priority src={brands} alt="brands" />{" "}
           </div>
         </main>
       </div>

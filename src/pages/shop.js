@@ -27,7 +27,7 @@ function Shop() {
       </Head>
       <div className="bg-[#ECE7DC] h-full px-8 lg:px-16 -mt-4 pb-8">
         {/* Logo */}
-        <Image src={Logo} quality={80} alt="logo" width={71} height={166} />
+        <Image src={Logo} priority alt="logo" width={71} height={166} />
         <main className="pb-14">
           <p className="lg:text-5xl text-4xl text-center font-medium mt-8 lg:-mt-[20px] text-neutral-900">
             Shop
