@@ -49,7 +49,7 @@ export default function Home() {
             src={Logo}
             className="h-[220px] mt-6 lg:mt-0 lg:h-auto"
             alt="logo"
-            priority
+
           />
           <div className="xl:mt-[146px] mt-3 md:mt-12">
             <div className="relative px-6 lg:pl-12">
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="col-span-6 hidden lg:flex  ">
           <div className="flex gap-6 items-start">
             <div className="space-y-6 mt-[152px]">
-              <Image src={image1} priority width="220" alt="image" />
+              <Image src={image1}  width="220" alt="image" />
               <Image src={image2} priority width="220" alt="image" />
               <Image src={image3} priority width="220" alt="image" />
             </div>

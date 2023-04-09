@@ -30,7 +30,6 @@ export const Products = [
     image: image14,
     price: "",
   },
-
   {
     name: "8",
     image: image8,
