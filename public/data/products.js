@@ -16,81 +16,82 @@ import image15 from "../../public/assets/productImages/prod15.jpg";
 
 export const Products = [
   {
-    name: "11",
+    name: "Boat at Lake Naivasha",
     image: image11,
     price: "",
   },
+
   {
-    name: "10",
-    image: image10,
-    price: "",
-  },
-  {
-    name: "14",
+    name: "Nairobi Skyline",
     image: image14,
     price: "",
   },
   {
-    name: "8",
+    name: "Fisherman at Watamu",
     image: image8,
     price: "",
   },
   {
-    name: "2",
+    name: "Lioness print at Mara",
     image: image2,
     price: "",
   },
   {
-    name: "3",
+    name: "Maasai Mara Skyline",
     image: image3,
     price: "",
   },
   {
-    name: "4",
+    name: "Elephant at Maasai Mara",
     image: image4,
     price: "",
   },
   {
-    name: "5",
+    name: "Silhouette of an Elephant at Mara",
     image: image5,
     price: "",
   },
   {
-    name: "6",
+    name: "Giraffes at the Mara",
     image: image6,
     price: "",
   },
   {
-    name: "7",
+    name: "Kilifi Sunset",
     image: image7,
     price: "",
   },
 
   {
-    name: "9",
+    name: "Fisherman getting home at Watamu",
     image: image9,
     price: "",
   },
 
   {
-    name: "12",
+    name: "Raft of ducks at Lake Naivasha",
     image: image12,
     price: "",
   },
   {
-    name: "13",
+    name: "Hellsgate print",
     image: image13,
     price: "",
   },
 
+  // {
+  //   name: "15",
+  //   image: image15,
+  //   price: "",
+  // },
   {
-    name: "15",
-    image: image15,
+    name: "Lonely tree at Mara",
+    image: image1,
     price: "",
   },
   {
-    name: "1",
-    image: image1,
+    name: "Boat Operator looking out at another boat",
+    image: image10,
     price: "",
   },
 ];

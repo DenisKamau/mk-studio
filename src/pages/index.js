@@ -49,7 +49,6 @@ export default function Home() {
             src={Logo}
             className="h-[220px] mt-6 lg:mt-0 lg:h-auto"
             alt="logo"
-
           />
           <div className="xl:mt-[146px] mt-3 md:mt-12">
             <div className="relative px-6 lg:pl-12">
@@ -71,19 +70,19 @@ export default function Home() {
         <div className="col-span-6 hidden lg:flex  ">
           <div className="flex gap-6 items-start">
             <div className="space-y-6 mt-[152px]">
-              <Image src={image1}  width="220" alt="image" />
-              <Image src={image2} priority width="220" alt="image" />
-              <Image src={image3} priority width="220" alt="image" />
+              <Image src={image1} quality={60} width="220" alt="image" />
+              <Image src={image2} quality={60} width="220" alt="image" />
+              <Image src={image3} quality={60} width="220" alt="image" />
             </div>
             <div className="space-y-6 mt-20">
-              <Image src={image4} priority width="220" alt="image" />
-              <Image src={image5} priority width="220" alt="image" />
-              <Image src={image6} priority width="220" alt="image" />
+              <Image src={image4} quality={60} width="220" alt="image" />
+              <Image src={image5} quality={60} width="220" alt="image" />
+              <Image src={image6} quality={60} width="220" alt="image" />
             </div>
             <div className="space-y-6 -mt-[100px]">
-              <Image src={image7} priority width="220" alt="image" />
-              <Image src={image8} priority width="220" alt="image" />
-              <Image src={image9} priority width="220" alt="image" />
+              <Image src={image7} quality={60} width="220" alt="image" />
+              <Image src={image8} quality={60} width="220" alt="image" />
+              <Image src={image9} quality={60} width="220" alt="image" />
             </div>
           </div>
         </div>
@@ -98,6 +97,7 @@ export default function Home() {
           style={{ objectFit: "cover", objectPosition: "center" }}
           className="absolute z-10"
           alt="image"
+          quality={70}
         />
         <div className="z-20 lg:mt-[290px] w-full mx-8 lg:mx-16">
           <div className="lg:bg-neutral-900 bg-lime-600 flex justify-center py-4 lg:py-10 px-4 lg:px-[140px] bg-opacity-30 lg:bg-opacity-70">
@@ -124,6 +124,7 @@ export default function Home() {
             alt="image"
             style={{ objectFit: "cover", objectPosition: "center" }}
             className="absolute z-10"
+            quality={70}
           />
           <div className="z-20 relative flex flex-col  w-full mx-8 lg:mx-16">
             <p className="text-4xl font-medium text-white pb-8">
@@ -144,6 +145,7 @@ export default function Home() {
             alt="image"
             style={{ objectFit: "cover", objectPosition: "center" }}
             className="absolute z-10"
+            quality={70}
           />
           <div className="z-20  w-full mx-8 lg:mx-16">
             <p className="text-4xl font-medium text-white pb-8">
@@ -230,6 +232,7 @@ export default function Home() {
             (max-width: 1200px) 50vw,
             33vw"
             alt="image"
+            quality={70}
             style={{ objectFit: "cover", objectPosition: "center" }}
             className="absolute z-10"
           />
@@ -244,6 +247,7 @@ export default function Home() {
             src={printMedia}
             fill
             alt="image"
+            quality={70}
             sizes="(max-width: 768px) 100vw,
             (max-width: 1200px) 50vw,
             33vw"

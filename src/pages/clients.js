@@ -30,14 +30,14 @@ function Portfolio() {
       </Head>
       <div className="bg-[#ECE7DC] px-8 lg:px-16 -mt-4 pb-8 min-h-screen">
         {/* Logo */}
-        <Image priority src={Logo} alt="clients" className="w-auto h-auto" />
+        <Image  src={Logo} alt="clients" className="w-auto h-auto" />
         <main>
           <p className="lg:text-5xl text-4xl text-center font-medium mt-8 lg:-mt-[20px] text-neutral-900">
             Clients
           </p>
           {/* Clients */}
           <div className="w-full grid place-content-center mt-20">
-            <Image quality={40} priority src={brands} alt="brands" />{" "}
+            <Image quality={30} priority src={brands} alt="brands" />{" "}
           </div>
         </main>
       </div>

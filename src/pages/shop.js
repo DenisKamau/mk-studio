@@ -1,8 +1,10 @@
 import Logo from "../../public/assets/svg/darklogo.svg";
 import Image from "next/image";
 import Head from "next/head";
-import Product from "@/components/Product";
 import { Products } from "public/data/products";
+import dynamic from "next/dynamic";
+
+const Product = dynamic(() => import("@/components/Product"));
 
 function Shop() {
   return (
@@ -27,7 +29,7 @@ function Shop() {
       </Head>
       <div className="bg-[#ECE7DC] h-full px-8 lg:px-16 -mt-4 pb-8">
         {/* Logo */}
-        <Image src={Logo} priority alt="logo" width={71} height={166} />
+        <Image src={Logo} alt="logo" width={71} height={166} />
         <main className="pb-14">
           <p className="lg:text-5xl text-4xl text-center font-medium mt-8 lg:-mt-[20px] text-neutral-900">
             Shop
@@ -40,6 +42,7 @@ function Shop() {
                   name={product.name}
                   price={product.price}
                   image={product.image}
+                  index={index}
                 />
               );
             })}
