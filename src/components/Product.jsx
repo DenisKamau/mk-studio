@@ -27,7 +27,7 @@ function Product({ name, price, image, index }) {
             </div>
             {/* Whatsapp button */}
             <a
-              href={`https://wa.me/254704945784/?text=Hi, I am interested in the ${name} portrait`}
+              href={`https://wa.me/254725217200/?text=Hi, I am interested in the ${name} portrait`}
               className="border  hover:bg-[#2cb742]/10 font-sans flex gap-2 text-gray-500 w-fit mt-4 items-center text-sm  border-[#2cb742] transition-all ease-in-out duration-200 font-medium rounded-md px-4 py-2 ">
               <p>Order</p>
               <Image src={whatsappIcon} alt="logo" width={16} height={16} />
